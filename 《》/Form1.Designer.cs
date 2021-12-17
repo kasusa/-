@@ -58,6 +58,9 @@ namespace __
             this.textBoxjilus = new System.Windows.Forms.TextBox();
             this.textBoxjilu = new System.Windows.Forms.TextBox();
             this.textBoxpaichu = new System.Windows.Forms.TextBox();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -135,7 +138,7 @@ namespace __
             this.groupBox2.Controls.Add(this.button5);
             this.groupBox2.Location = new System.Drawing.Point(220, 7);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(935, 294);
+            this.groupBox2.Size = new System.Drawing.Size(933, 294);
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "输出";
@@ -151,14 +154,14 @@ namespace __
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(923, 269);
+            this.textBox1.Size = new System.Drawing.Size(921, 269);
             this.textBox1.TabIndex = 6;
             // 
             // button5
             // 
             this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.button5.BackColor = System.Drawing.Color.LightGray;
-            this.button5.Location = new System.Drawing.Point(803, 24);
+            this.button5.Location = new System.Drawing.Point(801, 24);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(123, 21);
             this.button5.TabIndex = 17;
@@ -170,9 +173,9 @@ namespace __
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 595);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 630);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1167, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(1165, 22);
             this.statusStrip1.TabIndex = 10;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -185,7 +188,7 @@ namespace __
             // button3
             // 
             this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.Location = new System.Drawing.Point(1088, 595);
+            this.button3.Location = new System.Drawing.Point(1086, 630);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(58, 22);
             this.button3.TabIndex = 11;
@@ -237,7 +240,7 @@ namespace __
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Location = new System.Drawing.Point(12, 58);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(202, 153);
+            this.groupBox1.Size = new System.Drawing.Size(202, 136);
             this.groupBox1.TabIndex = 18;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "分隔";
@@ -249,7 +252,7 @@ namespace __
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Location = new System.Drawing.Point(13, 108);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(83, 29);
+            this.button7.Size = new System.Drawing.Size(33, 22);
             this.button7.TabIndex = 24;
             this.button7.Text = "Py list";
             this.button7.UseVisualStyleBackColor = false;
@@ -257,7 +260,7 @@ namespace __
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button6.BackColor = System.Drawing.Color.SandyBrown;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Location = new System.Drawing.Point(6, 20);
             this.button6.Name = "button6";
@@ -269,17 +272,22 @@ namespace __
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.label7);
+            this.groupBox3.Controls.Add(this.button9);
             this.groupBox3.Controls.Add(this.button6);
-            this.groupBox3.Location = new System.Drawing.Point(14, 242);
+            this.groupBox3.Controls.Add(this.button8);
+            this.groupBox3.Location = new System.Drawing.Point(12, 194);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(200, 59);
+            this.groupBox3.Size = new System.Drawing.Size(208, 101);
             this.groupBox3.TabIndex = 24;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "分离";
             // 
             // groupBox4
             // 
-            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox4.Controls.Add(this.label6);
             this.groupBox4.Controls.Add(this.label5);
             this.groupBox4.Controls.Add(this.label4);
@@ -291,7 +299,7 @@ namespace __
             this.groupBox4.Controls.Add(this.textBoxpaichu);
             this.groupBox4.Location = new System.Drawing.Point(8, 307);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(1147, 298);
+            this.groupBox4.Size = new System.Drawing.Size(1145, 333);
             this.groupBox4.TabIndex = 29;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "分离结果";
@@ -301,9 +309,9 @@ namespace __
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(769, 24);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(71, 12);
+            this.label6.Size = new System.Drawing.Size(41, 12);
             this.label6.TabIndex = 37;
-            this.label6.Text = "排除/剩余：";
+            this.label6.Text = "排除：";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label5
@@ -311,9 +319,9 @@ namespace __
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(389, 23);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(41, 12);
+            this.label5.Size = new System.Drawing.Size(71, 12);
             this.label5.TabIndex = 36;
-            this.label5.Text = "记录：";
+            this.label5.Text = "记录/剩余：";
             // 
             // label4
             // 
@@ -334,9 +342,9 @@ namespace __
             // 
             // textpaichus
             // 
-            this.textpaichus.Location = new System.Drawing.Point(846, 20);
+            this.textpaichus.Location = new System.Drawing.Point(816, 20);
             this.textpaichus.Name = "textpaichus";
-            this.textpaichus.Size = new System.Drawing.Size(293, 21);
+            this.textpaichus.Size = new System.Drawing.Size(323, 21);
             this.textpaichus.TabIndex = 34;
             this.textpaichus.Text = "备案，定级";
             // 
@@ -345,18 +353,18 @@ namespace __
             this.textBoxzhidu.AllowDrop = true;
             this.textBoxzhidu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.textBoxzhidu.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBoxzhidu.Location = new System.Drawing.Point(11, 44);
+            this.textBoxzhidu.Location = new System.Drawing.Point(10, 44);
             this.textBoxzhidu.Multiline = true;
             this.textBoxzhidu.Name = "textBoxzhidu";
             this.textBoxzhidu.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxzhidu.Size = new System.Drawing.Size(370, 239);
+            this.textBoxzhidu.Size = new System.Drawing.Size(370, 274);
             this.textBoxzhidu.TabIndex = 29;
             // 
             // textBoxjilus
             // 
-            this.textBoxjilus.Location = new System.Drawing.Point(436, 20);
+            this.textBoxjilus.Location = new System.Drawing.Point(460, 20);
             this.textBoxjilus.Name = "textBoxjilus";
-            this.textBoxjilus.Size = new System.Drawing.Size(326, 21);
+            this.textBoxjilus.Size = new System.Drawing.Size(302, 21);
             this.textBoxjilus.TabIndex = 33;
             this.textBoxjilus.Text = "表，单，记录，会议纪要，协议书";
             // 
@@ -365,11 +373,11 @@ namespace __
             this.textBoxjilu.AllowDrop = true;
             this.textBoxjilu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.textBoxjilu.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBoxjilu.Location = new System.Drawing.Point(391, 44);
+            this.textBoxjilu.Location = new System.Drawing.Point(390, 44);
             this.textBoxjilu.Multiline = true;
             this.textBoxjilu.Name = "textBoxjilu";
             this.textBoxjilu.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxjilu.Size = new System.Drawing.Size(371, 239);
+            this.textBoxjilu.Size = new System.Drawing.Size(370, 274);
             this.textBoxjilu.TabIndex = 30;
             // 
             // textBoxpaichu
@@ -377,18 +385,50 @@ namespace __
             this.textBoxpaichu.AllowDrop = true;
             this.textBoxpaichu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.textBoxpaichu.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBoxpaichu.Location = new System.Drawing.Point(771, 44);
+            this.textBoxpaichu.Location = new System.Drawing.Point(770, 44);
             this.textBoxpaichu.Multiline = true;
             this.textBoxpaichu.Name = "textBoxpaichu";
             this.textBoxpaichu.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxpaichu.Size = new System.Drawing.Size(368, 239);
+            this.textBoxpaichu.Size = new System.Drawing.Size(370, 274);
             this.textBoxpaichu.TabIndex = 32;
+            // 
+            // button8
+            // 
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Location = new System.Drawing.Point(74, 66);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(59, 23);
+            this.button8.TabIndex = 20;
+            this.button8.Text = "保存";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // button9
+            // 
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Location = new System.Drawing.Point(139, 66);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(55, 23);
+            this.button9.TabIndex = 21;
+            this.button9.Text = "读取";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label7.Location = new System.Drawing.Point(1, 51);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(95, 12);
+            this.label7.TabIndex = 22;
+            this.label7.Text = " 自定义关键词：";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1167, 617);
+            this.ClientSize = new System.Drawing.Size(1165, 652);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
@@ -401,6 +441,7 @@ namespace __
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "过程性文件导出";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.Resize += new System.EventHandler(this.Form1_Resize);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
@@ -408,6 +449,7 @@ namespace __
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
@@ -445,6 +487,9 @@ namespace __
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Label label7;
     }
 }
 

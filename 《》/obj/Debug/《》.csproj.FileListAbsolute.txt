@@ -18,3 +18,14 @@ C:\Users\kasusa\Desktop\工作\a软件工具\《》\《》\《》\obj\Debug\《�
 C:\Users\kasusa\Desktop\工作\a软件工具\《》\《》\《》\obj\Debug\《》.csproj.CoreCompileInputs.cache
 C:\Users\kasusa\Desktop\工作\a软件工具\《》\《》\《》\obj\Debug\《》.exe
 C:\Users\kasusa\Desktop\工作\a软件工具\《》\《》\《》\obj\Debug\《》.pdb
+C:\Users\kasusa\Desktop\src\《》\《》\《》\bin\Debug\《》.exe.config
+C:\Users\kasusa\Desktop\src\《》\《》\《》\bin\Debug\《》.exe
+C:\Users\kasusa\Desktop\src\《》\《》\《》\bin\Debug\《》.pdb
+C:\Users\kasusa\Desktop\src\《》\《》\《》\obj\Debug\《》.csproj.AssemblyReference.cache
+C:\Users\kasusa\Desktop\src\《》\《》\《》\obj\Debug\《》.csproj.SuggestedBindingRedirects.cache
+C:\Users\kasusa\Desktop\src\《》\《》\《》\obj\Debug\__.Form1.resources
+C:\Users\kasusa\Desktop\src\《》\《》\《》\obj\Debug\__.Properties.Resources.resources
+C:\Users\kasusa\Desktop\src\《》\《》\《》\obj\Debug\《》.csproj.GenerateResource.cache
+C:\Users\kasusa\Desktop\src\《》\《》\《》\obj\Debug\《》.csproj.CoreCompileInputs.cache
+C:\Users\kasusa\Desktop\src\《》\《》\《》\obj\Debug\《》.exe
+C:\Users\kasusa\Desktop\src\《》\《》\《》\obj\Debug\《》.pdb

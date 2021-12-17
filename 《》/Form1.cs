@@ -8,6 +8,7 @@ using System.Text.RegularExpressions;
 using System.IO;
 using Microsoft.Office.Interop.Excel;
 using DataTable = System.Data.DataTable;
+using __.Properties;
 
 namespace __
 {
@@ -397,10 +398,11 @@ namespace __
             // 剩余
             foreach (var filename in filename_SET)
             {
-                foreach (var word in paichulikelist)
-                {
-                    paichu.Add(filename);
-                }
+                jilu.Add(filename);
+                //foreach (var word in paichulikelist)
+                //{
+                   
+                //}
             }
 
             textBoxzhidu.Text = renderlist(zhidu);
@@ -437,6 +439,40 @@ namespace __
 
         private void label6_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void Form1_Resize(object sender, EventArgs e)
+        {
+            int san = (this.Width) / 3;
+
+            textBoxzhidu.Left = 0;
+            textBoxzhidu.Width =san;
+
+            textBoxjilu.Left = san;
+            textBoxjilu.Width = san;
+
+            textBoxpaichu.Left = san *2;
+            textBoxpaichu.Width = san-35;
+
+
+        }
+
+        //保存关键词
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Settings.Default.jilu = textBoxjilus.Text;
+            Settings.Default.zhidu = textBoxzhidus.Text;
+            Settings.Default.paichu = textpaichus.Text;
+            toolStripStatusLabel1.Text = "已保存。";
+        }
+        //读取关键词
+        private void button9_Click(object sender, EventArgs e)
+        {
+            textBoxjilus.Text = Settings.Default.jilu;
+            textBoxzhidus.Text = Settings.Default.zhidu;
+            textpaichus.Text = Settings.Default.paichu;
+            toolStripStatusLabel1.Text = "已读取。";
 
         }
     }
