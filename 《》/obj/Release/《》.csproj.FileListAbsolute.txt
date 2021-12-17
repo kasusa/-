@@ -1,0 +1,10 @@
+C:\Users\kasusa\Desktop\工作\a软件工具\《》\《》\《》\bin\Release\《》.exe.config
+C:\Users\kasusa\Desktop\工作\a软件工具\《》\《》\《》\bin\Release\《》.exe
+C:\Users\kasusa\Desktop\工作\a软件工具\《》\《》\《》\bin\Release\《》.pdb
+C:\Users\kasusa\Desktop\工作\a软件工具\《》\《》\《》\obj\Release\《》.csproj.AssemblyReference.cache
+C:\Users\kasusa\Desktop\工作\a软件工具\《》\《》\《》\obj\Release\__.Form1.resources
+C:\Users\kasusa\Desktop\工作\a软件工具\《》\《》\《》\obj\Release\__.Properties.Resources.resources
+C:\Users\kasusa\Desktop\工作\a软件工具\《》\《》\《》\obj\Release\《》.csproj.GenerateResource.cache
+C:\Users\kasusa\Desktop\工作\a软件工具\《》\《》\《》\obj\Release\《》.csproj.CoreCompileInputs.cache
+C:\Users\kasusa\Desktop\工作\a软件工具\《》\《》\《》\obj\Release\《》.exe
+C:\Users\kasusa\Desktop\工作\a软件工具\《》\《》\《》\obj\Release\《》.pdb
