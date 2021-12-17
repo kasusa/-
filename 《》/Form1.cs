@@ -193,6 +193,7 @@ namespace __
             {
                 textBox1.Text = renderstr();
             }
+    
         }
 
         public string renderstr()
@@ -442,18 +443,29 @@ namespace __
 
         }
 
+        //为了三个textbox可以平均分配他们的宽度
         private void Form1_Resize(object sender, EventArgs e)
         {
             int san = (this.Width) / 3;
 
             textBoxzhidu.Left = 0;
             textBoxzhidu.Width =san;
+            textBoxzhidus.Left = 0+5;
+            textBoxzhidus.Width = san-5;
+
+
 
             textBoxjilu.Left = san;
             textBoxjilu.Width = san;
+            label5.Left = san;
+            textBoxjilus.Left = san+5;
+            textBoxjilus.Width = san-5;
 
             textBoxpaichu.Left = san *2;
             textBoxpaichu.Width = san-35;
+            label6.Left = san*2;
+            textpaichus.Left = san*2 +5;
+            textpaichus.Width = san-40;
 
 
         }

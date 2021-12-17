@@ -48,6 +48,9 @@ namespace __
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -58,9 +61,6 @@ namespace __
             this.textBoxjilus = new System.Windows.Forms.TextBox();
             this.textBoxjilu = new System.Windows.Forms.TextBox();
             this.textBoxpaichu = new System.Windows.Forms.TextBox();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -283,6 +283,38 @@ namespace __
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "分离";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label7.Location = new System.Drawing.Point(1, 51);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(95, 12);
+            this.label7.TabIndex = 22;
+            this.label7.Text = " 自定义关键词：";
+            // 
+            // button9
+            // 
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Location = new System.Drawing.Point(139, 66);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(55, 23);
+            this.button9.TabIndex = 21;
+            this.button9.Text = "读取";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // button8
+            // 
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Location = new System.Drawing.Point(74, 66);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(59, 23);
+            this.button8.TabIndex = 20;
+            this.button8.Text = "保存";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
             // groupBox4
             // 
             this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -334,17 +366,17 @@ namespace __
             // 
             // textBoxzhidus
             // 
-            this.textBoxzhidus.Location = new System.Drawing.Point(56, 20);
+            this.textBoxzhidus.Location = new System.Drawing.Point(11, 38);
             this.textBoxzhidus.Name = "textBoxzhidus";
-            this.textBoxzhidus.Size = new System.Drawing.Size(325, 21);
+            this.textBoxzhidus.Size = new System.Drawing.Size(369, 21);
             this.textBoxzhidus.TabIndex = 31;
             this.textBoxzhidus.Text = "制度，流程，规定，办法，管理，预案";
             // 
             // textpaichus
             // 
-            this.textpaichus.Location = new System.Drawing.Point(816, 20);
+            this.textpaichus.Location = new System.Drawing.Point(771, 39);
             this.textpaichus.Name = "textpaichus";
-            this.textpaichus.Size = new System.Drawing.Size(323, 21);
+            this.textpaichus.Size = new System.Drawing.Size(365, 21);
             this.textpaichus.TabIndex = 34;
             this.textpaichus.Text = "备案，定级";
             // 
@@ -353,18 +385,18 @@ namespace __
             this.textBoxzhidu.AllowDrop = true;
             this.textBoxzhidu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.textBoxzhidu.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBoxzhidu.Location = new System.Drawing.Point(10, 44);
+            this.textBoxzhidu.Location = new System.Drawing.Point(10, 70);
             this.textBoxzhidu.Multiline = true;
             this.textBoxzhidu.Name = "textBoxzhidu";
             this.textBoxzhidu.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxzhidu.Size = new System.Drawing.Size(370, 274);
+            this.textBoxzhidu.Size = new System.Drawing.Size(370, 248);
             this.textBoxzhidu.TabIndex = 29;
             // 
             // textBoxjilus
             // 
-            this.textBoxjilus.Location = new System.Drawing.Point(460, 20);
+            this.textBoxjilus.Location = new System.Drawing.Point(391, 38);
             this.textBoxjilus.Name = "textBoxjilus";
-            this.textBoxjilus.Size = new System.Drawing.Size(302, 21);
+            this.textBoxjilus.Size = new System.Drawing.Size(369, 21);
             this.textBoxjilus.TabIndex = 33;
             this.textBoxjilus.Text = "表，单，记录，会议纪要，协议书";
             // 
@@ -373,11 +405,11 @@ namespace __
             this.textBoxjilu.AllowDrop = true;
             this.textBoxjilu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.textBoxjilu.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBoxjilu.Location = new System.Drawing.Point(390, 44);
+            this.textBoxjilu.Location = new System.Drawing.Point(390, 70);
             this.textBoxjilu.Multiline = true;
             this.textBoxjilu.Name = "textBoxjilu";
             this.textBoxjilu.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxjilu.Size = new System.Drawing.Size(370, 274);
+            this.textBoxjilu.Size = new System.Drawing.Size(370, 248);
             this.textBoxjilu.TabIndex = 30;
             // 
             // textBoxpaichu
@@ -385,44 +417,12 @@ namespace __
             this.textBoxpaichu.AllowDrop = true;
             this.textBoxpaichu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.textBoxpaichu.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBoxpaichu.Location = new System.Drawing.Point(770, 44);
+            this.textBoxpaichu.Location = new System.Drawing.Point(770, 70);
             this.textBoxpaichu.Multiline = true;
             this.textBoxpaichu.Name = "textBoxpaichu";
             this.textBoxpaichu.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxpaichu.Size = new System.Drawing.Size(370, 274);
+            this.textBoxpaichu.Size = new System.Drawing.Size(370, 248);
             this.textBoxpaichu.TabIndex = 32;
-            // 
-            // button8
-            // 
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Location = new System.Drawing.Point(74, 66);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(59, 23);
-            this.button8.TabIndex = 20;
-            this.button8.Text = "保存";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
-            // button9
-            // 
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Location = new System.Drawing.Point(139, 66);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(55, 23);
-            this.button9.TabIndex = 21;
-            this.button9.Text = "读取";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label7.Location = new System.Drawing.Point(1, 51);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(95, 12);
-            this.label7.TabIndex = 22;
-            this.label7.Text = " 自定义关键词：";
             // 
             // Form1
             // 
